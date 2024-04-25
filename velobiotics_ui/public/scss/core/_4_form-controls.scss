@@ -1,0 +1,34 @@
+.btn.btn-primary,
+div#driver-popover-item .driver-popover-footer button.btn-primary,
+div#driver-popover-item .driver-popover-footer button.driver-next-btn,
+
+.btn-primary:not(:disabled):not(.disabled):active,
+div#driver-popover-item .driver-popover-footer button.driver-next-btn:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+div#driver-popover-item .driver-popover-footer button.driver-next-btn:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle,
+div#driver-popover-item .driver-popover-footer .show>button.dropdown-toggle.driver-next-btn {
+
+  background-color: var(--primary)!important;
+}
+
+.btn-primary:focus,
+div#driver-popover-item .driver-popover-footer button.driver-next-btn:focus,
+.btn-primary.focus,
+div#driver-popover-item .driver-popover-footer button.focus.driver-next-btn {
+  border-color: var(--primary);
+  box-shadow: inset 0 1px 0 rgba(31, 88, 14, 0.74),
+    0 1px 1px rgba(63, 116, 20, 0.075), 0 0 0 2px rgba(56, 192, 51, 0.5);
+}
+
+.list-paging-area .btn-group .btn-paging.btn-info,
+.footnote-area .btn-group .btn-paging.btn-info {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: var(--white);
+  font-weight: var(--text-bold);
+}
+
+#navbar-breadcrumbs a {
+  color: rgb(57, 55, 55);
+}

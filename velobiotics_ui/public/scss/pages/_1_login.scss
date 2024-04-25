@@ -1,0 +1,72 @@
+.for-forgot,
+.for-login {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  height: 100vh;
+
+  .auth-form {
+    width: 100%;
+    max-width: 375px;
+    margin: auto 40px;
+    height: 400px;
+
+    .page-card {
+      padding: 20px;
+      background-color: #fff;
+      position: relative;
+      box-shadow: 0 0 0 0.2rem #bfdbc45e;
+      
+
+      .page-card-head {
+        margin-bottom: 1.5rem;
+
+        img {
+          // margin-bottom: 2rem;
+          max-height: 170px;
+        }
+      }
+    }
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem #bfdbc45e;
+}
+
+    .form-group {
+      padding: 8px;
+    }
+
+    @media (max-width: 768px) {
+      max-width: 100%;
+    }
+  }
+  .btn.btn-primary{
+    background-color:#045801d5;
+  } 
+  .btn-primary:hover{
+    border-color:#045801d5;
+    background: #35d330d5;
+    
+  }
+  .btn-primary:active{
+   
+    background: #045801d5!important;
+    
+  }
+  .auth-bg {
+    flex: 1;
+    height: 100vh;
+    // background-image: url("https://img.freepik.com/free-photo/business-people-shaking-hands-together_53876-20488.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699056000&semt=sph");
+    background-image: url("/assets/velobiotics_ui/images/banner.jpg");
+    background-position: center center;
+    background-size: cover;
+
+    @media (max-width: 768px) {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+}
