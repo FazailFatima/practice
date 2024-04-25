@@ -7,6 +7,17 @@ app_license = "MIT"
 
 # Includes in <head>
 # ------------------
+app_logo_url = "/assets/velobiotics_ui/images/logo.png"
+
+website_context = {
+    # "favicon": "/assets/velobiotics_ui/images/favicon.png",
+    "splash_image": "/assets/velobiotics_ui/images/logo.png",
+}
+
+
+app_include_css = ["velobiotics_ui.bundle.css"]
+app_include_js = "velobiotics_toolbar.bundle.js"
+# ------------------
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/velobiotics_ui/css/velobiotics_ui.css"
@@ -36,7 +47,7 @@ app_license = "MIT"
 # ----------
 
 # application home page (will override Website Settings)
-# home_page = "login"
+home_page = "login"
 
 # website user home page (by Role)
 # role_home_page = {
@@ -57,6 +68,8 @@ app_license = "MIT"
 # 	"methods": "velobiotics_ui.utils.jinja_methods",
 # 	"filters": "velobiotics_ui.utils.jinja_filters"
 # }
+# Migrate
+after_migrate = "velobiotics_ui.migrate.after_migrate"
 
 # Installation
 # ------------
