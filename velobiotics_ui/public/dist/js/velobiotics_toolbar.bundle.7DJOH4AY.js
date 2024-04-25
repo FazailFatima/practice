@@ -1,5 +1,5 @@
 (() => {
-  // frappe-html:/home/fazail/bench-14/apps/velobiotics_ui/velobiotics_ui/public/js/ui/toolbar/navbar.html
+  // frappe-html:/home/fazail/bench-15/apps/velobiotics_ui/velobiotics_ui/public/js/ui/toolbar/navbar.html
   frappe.templates["navbar"] = `<style>
   .navbar .vertical-bar {
     border-right: 1px solid #525252;
@@ -119,4 +119,4 @@
     });
   });
 })();
-//# sourceMappingURL=velobiotics_toolbar.bundle.7HFPL2PX.js.map
+//# sourceMappingURL=velobiotics_toolbar.bundle.7DJOH4AY.js.map

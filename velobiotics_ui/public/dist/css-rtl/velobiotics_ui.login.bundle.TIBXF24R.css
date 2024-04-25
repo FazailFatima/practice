@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-6895-0f6v3RxuNHzZ/velobiotics_ui/velobiotics_ui/public/scss/velobiotics_ui.login.bundle.css */
+/* ../../../../../tmp/tmp-5187-0cM08xhqM9H1/velobiotics_ui/velobiotics_ui/public/scss/velobiotics_ui.login.bundle.css */
 @font-face {
   font-family: "Almarai";
   src: url(/assets/velobiotics_ui/fonts//Almarai-Regular.ttf) format("truetype");
@@ -109,7 +109,7 @@ div#driver-popover-item .driver-popover-footer button.focus.driver-next-btn {
   font-weight: var(--text-bold);
 }
 #navbar-breadcrumbs a {
-  color: #393737;
+  color: rgb(57, 55, 55);
 }
 .for-forgot,
 .for-login {
@@ -130,7 +130,7 @@ div#driver-popover-item .driver-popover-footer button.focus.driver-next-btn {
   padding: 20px;
   background-color: #fff;
   position: relative;
-  box-shadow: 0 0 0 0.2rem #bfdbc45e;
+  box-shadow: 0 0 0 0.2rem rgba(191, 219, 196, 0.368627451);
 }
 .for-forgot .auth-form .page-card .page-card-head,
 .for-login .auth-form .page-card .page-card-head {
@@ -146,7 +146,7 @@ div#driver-popover-item .driver-popover-footer button.focus.driver-next-btn {
 .for-login .auth-form .btn-primary:not(:disabled):not(.disabled):active:focus,
 .for-login .auth-form .btn-primary:not(:disabled):not(.disabled).active:focus,
 .for-login .auth-form .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem #bfdbc45e;
+  box-shadow: 0 0 0 0.2rem rgba(191, 219, 196, 0.368627451);
 }
 .for-forgot .auth-form .form-group,
 .for-login .auth-form .form-group {
@@ -160,16 +160,16 @@ div#driver-popover-item .driver-popover-footer button.focus.driver-next-btn {
 }
 .for-forgot .btn.btn-primary,
 .for-login .btn.btn-primary {
-  background-color: #045801d5;
+  background-color: rgba(4, 88, 1, 0.8352941176);
 }
 .for-forgot .btn-primary:hover,
 .for-login .btn-primary:hover {
-  border-color: #045801d5;
-  background: #35d330d5;
+  border-color: rgba(4, 88, 1, 0.8352941176);
+  background: rgba(53, 211, 48, 0.8352941176);
 }
 .for-forgot .btn-primary:active,
 .for-login .btn-primary:active {
-  background: #045801d5 !important;
+  background: rgba(4, 88, 1, 0.8352941176) !important;
 }
 .for-forgot .auth-bg,
 .for-login .auth-bg {
@@ -189,4 +189,4 @@ div#driver-popover-item .driver-popover-footer button.focus.driver-next-btn {
     left: 0;
   }
 }
-/*# sourceMappingURL=velobiotics_ui.login.bundle.AAVIQWDI.css.map */
+/*# sourceMappingURL=velobiotics_ui.login.bundle.TIBXF24R.css.map */
